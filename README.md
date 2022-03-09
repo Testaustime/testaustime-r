@@ -5,7 +5,10 @@ Visualize your testaustime data with cool graphs generated with an R script usin
 ## How to use?
 1. Install necessary packages (and R if you dont have it):
     ```R
-    install.packages("httr", "rjson", "ggplot2", "ggthemes")
+    install.packages("httr")
+    install.packages("rjson")
+    install.packages("ggplot2")
+    install.packages("ggthemes")
     ```
 2. Run the script (first insert your token into it):
     ```sh
