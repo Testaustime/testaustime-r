@@ -24,7 +24,6 @@ library("ggplot2")
 library("ggthemes")
 
 png(file="language_and_duration_by_date.png", width=1024, height=720)
-par(bg="#1c1c1c")
 
 ggplot(data, aes(fill=language, y=duration, x=start_time)) + geom_bar(position="stack", stat="identity") + theme_dark() +
     theme(plot.background = element_rect(fill = "#3c3835", color = "black"), panel.background = element_rect("#242221", color="black")) +
