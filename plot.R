@@ -1,3 +1,4 @@
+#!/usr/bin/env Rscript
 qry <- "https://time.lajp.fi/activity/data?min_duration=1"
 bearer <- "Bearer <YOURTOKEN>"
 
