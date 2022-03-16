@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-qry <- "https://time.lajp.fi/users/@me/data?min_duration=1"
+qry <- "https://time.lajp.fi/users/@me/activity/data?min_duration=1"
 bearer <- "Bearer <YOURTOKEN>"
 
 library("httr")
